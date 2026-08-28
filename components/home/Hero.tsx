@@ -39,18 +39,21 @@ export const Hero = () => {
 
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4 animate-fade-in-up animation-delay-300 px-3">
               <Link
-                href="/playground"
-                className="w-full sm:w-auto h-14 px-8 rounded-xl bg-fd-primary text-fd-background dark:bg-fd-accent dark:text-white font-bold text-lg flex items-center justify-center gap-3 shadow-lg shadow-primary/20 hover:opacity-95 hover:-translate-y-1 hover:scale-105 transition-all duration-300  "
-              >
-                <Icon icon="lucide:play" className="w-5 h-5" />
-                Try Online
-              </Link>
-              <Link
                 href="/downloads"
-                className="w-full sm:w-auto h-14 px-8 rounded-xl bg-card border border-border/50  hover:bg-secondary/50 font-semibold text-lg flex items-center justify-center gap-3 transition-all duration-300 group backdrop-blur-sm"
+                className="w-full sm:w-auto h-14 px-8 rounded-xl bg-fd-primary text-fd-background dark:bg-fd-accent dark:text-white font-bold text-lg flex items-center justify-center gap-3 shadow-lg shadow-primary/20 hover:opacity-95 hover:-translate-y-1 hover:scale-105 transition-all duration-300  "
               >
                 <Icon icon="lucide:download" className="w-5 h-5" />
                 Install Soplang
+              </Link>
+              <Link
+                href="/docs"
+                className="w-full sm:w-auto h-14 px-8 rounded-xl bg-card border border-border/50  hover:bg-secondary/50 font-semibold text-lg flex items-center justify-center gap-3 transition-all duration-300 group backdrop-blur-sm"
+              >
+                Documentation
+                <Icon
+                  icon="lucide:arrow-right"
+                  className="w-4 h-4 group-hover:translate-x-1 transition-transform"
+                />
               </Link>
             </div>
 

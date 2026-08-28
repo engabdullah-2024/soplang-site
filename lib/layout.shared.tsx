@@ -8,7 +8,6 @@ export function baseOptions(): BaseLayoutProps {
     },
     links: [
       { text: "Home", url: "/", active: "nested-url" },
-      { text: "Playground", url: "/playground", active: "nested-url" },
       { text: "Downloads", url: "/downloads", active: "nested-url" },
       { text: "Documentation", url: "/docs", active: "nested-url" },
       { text: "Community", url: "/community", active: "nested-url" },
