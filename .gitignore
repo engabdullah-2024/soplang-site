@@ -24,3 +24,7 @@ yarn-error.log*
 .env*.local
 .vercel
 next-env.d.ts
+
+# playground runner
+/runner/vendor
+/runner/.env
